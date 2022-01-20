@@ -1,78 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="zh">
 <head>
-	<meta charset="utf-8">
-	<title>WSH's Web</title>
-	<meta name="description" content="">
-	<meta name="author" content="wsh">
+  <meta charset="utf-8">
+  <!-- Site Meta Data -->
+  <title>WSH's Web</title>
+  <meta name="description" content="">
+  <meta name="author" content="wsh">
 
-	<!-- HTML5 shim, for IE6-8 support of HTML elements -->
-	<!--[if lt IE 9]>
-		<script src="www.wangsh.ml/theme/html5.js"></script>
-	<![endif]-->
+  <!-- Style Meta Data -->
+  <link rel="stylesheet" href="/theme/css/notebook.css" type="text/css" />
+  <link rel="shortcut icon" href="/images/avatar.jpg">
 
-	<!-- Styles -->
-	<link href="www.wangsh.ml/theme/bootstrap.min.css" rel="stylesheet">
-	<link href="www.wangsh.ml/theme/local.css" rel="stylesheet">
-	<link href="www.wangsh.ml/theme/pygments.css" rel="stylesheet">
+  <!-- Feed Meta Data -->
+  <link href="/" type="application/atom+xml" rel="alternate" title="WSH's Web ATOM Feed" />
 
-	<!-- Feeds -->
+  <!-- Twitter Feed -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:image" content="/images/avatar.jpg">
 
+<meta name="twitter:creator" content="">
+<meta name="twitter:url" content="">
+<meta name="twitter:title" content="WSH's Web">
+<meta name="twitter:description" content="">
 
-
-
+<!-- Facebook Meta Data -->
+<meta property="og:title" content="WSH's Web" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="images/avatar.jpg" />
 </head>
+
 <body>
-	<div class="topbar">
-	  <div class="topbar-inner">
-		<div class="container-fluid">
-		  <a class="brand" href="www.wangsh.ml/">WSH's Web</a>
-			<ul class="nav">
-					<li ><a href="www.wangsh.ml/category/ji-zhu.html">技术</a></li>
-			</ul>
-			<p class="pull-right"><a href="www.wangsh.ml/archives.html">[archives]</a> <a href="www.wangsh.ml/tags.html">[tags]</a></p>
-		</div>
-	  </div>
-	</div>
+  <!-- Sidebar -->
+  <aside>
+    <p><a href=""><img id="avatar" src="/images/avatar.jpg"></a></p>
+    <h1>WSH's Web</h1>
+    <p></p>
+    <hr>
+    <h2>Social</h2>
+    <ul class="social">
+      <li style="list-style-image : url(/theme/images/icons/wsh's blog.png);"><a href="https://www.wangsh.ml">wsh's blog</a></li>
+      <li style="list-style-image : url(/theme/images/icons/.png);"><a href="#"></a></li>
+      <li style="list-style-image : url(/theme/images/icons/rss.png);"><a href="/" rel="alternate"><i class="icon-bookmark icon-large"></i>Atom feed</a></li>
+    </ul>
+    <h2>Categories</h2>
+    <ul class="navbar">
+      <li><a href="/category/ji-zhu.html">技术</a></li>
+    </ul> 
+  </aside>
 
-	<div class="container-fluid">
-	  <div class="sidebar">
-		<div class="well">
-			<h3>Blogroll</h3>
-			<ul>
-				<li><a href="https://getpelican.com/">Pelican</a></li>
-				<li><a href="https://www.python.org/">Python.org</a></li>
-				<li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
-				<li><a href="#">You can modify those links in your config file</a></li>
-			</ul>
-			<div class="social">
-			<h3>Social</h3>
-			<ul>
-				<li><a href="#">You can add links in your config file</a></li>
-				<li><a href="#">Another social link</a></li>
-			</ul>
-			</div>
-		</div>
-	  </div>
-	  <div class="content">
-<div class="page-header"><h1> WSH's Web </h1></div>
-<div class='article'>
-	<h2>first blog</h2>
-	<div class="well small">Permalink: <a class="more" href="www.wangsh.ml/my-super-post.html">2022-01-20 15:30:00+00:00</a>
-by <a class="url fn" href="www.wangsh.ml/author/wsh.html">wsh </a>
- in <a href="www.wangsh.ml/category/ji-zhu.html">技术</a>
-tags: <a href="www.wangsh.ml/tag/pelican.html">pelican</a> <a href="www.wangsh.ml/tag/publishing.html">publishing</a> </div>
-	<div class="summary"><p>这是我的第一篇文章  test</p> <a class="btn primary xsmall" href="www.wangsh.ml/my-super-post.html">more…</a>
-	</div>
-</div>	
+  <!-- Content -->
+  <article>
+<ol>
+	<li class="post_list"><p class="post_entry">
+		<h2 class="post_title"><a href="/my-super-post.html" rel="bookmark" title="Permalink to first blog">first blog</a></h2>
+		<a href="/author/wsh.html">@wsh</a>
+		<span> dans </span>
+		<span class="post_category"><a href="/category/ji-zhu.html" rel="bookmark" title="Permalink to 技术">[ 技术 ]</a></span>
+		<span> le </span>
+		<span class="post_date">Thu 20 January 2022</span>
+	</li>
+</ol>
 
 
-		<footer>
-		  <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme based on <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
-		  <p>&copy; wsh</p>
-		</footer>
-	  </div>
+  </article>
 
-	</div>
+  <!-- Footer -->
+  <footer>
+    <address id="about" class="vcard body">
+      Blog powered by <a href="http://getpelican.com/">Pelican</a>, 
+      which takes great advantage of <a href="http://python.org">Python</a>.
+      Theme <a href="https://github.com/quack1/notebook/">Notebook</a> by <a href="https://twitter.com/_Quack1">@Quack1</a>.
+    </address>
+  </footer>
+
+
 </body>
 </html>
